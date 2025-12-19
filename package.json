@@ -1,0 +1,16 @@
+{
+  "name": "web-element-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:ext": "echo 'Run extension dev script here'",
+    "dev:api": "cd apps/api && npm run dev",
+    "dev:monitor": "cd apps/monitor && npm run dev"
+  },
+  "author": "",
+  "license": "ISC"
+}
